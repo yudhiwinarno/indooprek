@@ -1,0 +1,3 @@
+# indooprek
+Saya adalah seorang codinger yang telat belajar. dan saya menyesal... 
+pesan saya, gunakan waktu muda anda untuk mengenal dunia
