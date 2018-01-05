@@ -24,11 +24,11 @@ text-decoration:none;
 font-size:36px; 
 line-height:50px;
 padding:0px 20px;
+float:center;
 }
 #content{
 background:#fff;
-min-height:1100px;
-max-width:1050px;
+width:1050px;
 margin:20px auto;
 padding:20px 20px;
 font-size:16px;
@@ -38,6 +38,7 @@ background:#000;
 height:40px;
 color:#FFFFFF;
 padding:10px 20px 0 20px;
+float:center;
 }
 #header a.login{
 background:#0077FF;
@@ -80,8 +81,9 @@ height:90px;
 width:728px;
 margin-bottom:10px;
 }
-
-
+.clear {
+	clear: both;
+}
 .tombol {
 	background:#CC0000;
 	display:inline-block;
@@ -152,7 +154,7 @@ margin-bottom:10px;
 //<![CDATA[
 var currentURL=location.href;
 var str = currentURL;
-var res = str.replace("https://indooprek.blogspot.com/p/safelink_25.html?url=", "");
+var res = str.replace("https://cdn.rawgit.com/yudhiwinarno/indooprek/9018a74f/indofiles.html?url=", "");
 $(".Visit_Link").hide();
 function changeLink(){
     var decodedString = Base64.decode(res);
@@ -229,7 +231,7 @@ Arsip terkompresi menggabungkan beberapa file ke dalam satu file sehingga memuda
 <script type="text/javascript">
 var currentURL=location.href;
 var str = currentURL;
-var res = str.replace("https://fantastictouris.blogspot.com/p/destinasi.html?url=", "");
+var res = str.replace("https://cdn.rawgit.com/yudhiwinarno/indooprek/9018a74f/indofiles.html?url=", "");
 document.write('<button type="button" id="download" class="Visit_Link btn btn-success" onclick="changeLink();" style="display: none;"><strong>Visit Link</strong> <i class="fa fa-external-link" aria-hidden="true"></i></button>')
 </script>
 <div style="margin-top: 10px; max-width: 728px;height:100px;">
@@ -246,6 +248,7 @@ document.write('<button type="button" id="download" class="Visit_Link btn btn-su
 <br />
 </div>
     </div>
+	<div class="clear"/>
     <div id="footer">
 	<span style="float:left;"><b>Copyright @2018 | indo files</b></span>
 	<span style="float:right;">
